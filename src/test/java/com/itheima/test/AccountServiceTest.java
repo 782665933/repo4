@@ -28,4 +28,10 @@ public class AccountServiceTest {
         as.transfer("aaa","bbb",100f);
 
     }
+
+    @Test
+    public  void testTransfer3(){
+        as.transfer("aaa","bbb",100f);
+
+    }
 }
