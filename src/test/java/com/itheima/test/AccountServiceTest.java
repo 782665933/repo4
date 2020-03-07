@@ -23,4 +23,9 @@ public class AccountServiceTest {
 
     }
 
+    @Test
+    public  void testTransfer2(){
+        as.transfer("aaa","bbb",100f);
+
+    }
 }
